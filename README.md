@@ -1,11 +1,13 @@
-# Academia Gamer — Mundo Zero (protótipo 3D)
+# Academia Gamer — Mundo Zero
 
-Primeira fatia jogável do conceito de aventura educativa: cenário 3D voxelizado, personagem controlável, câmara alternável, personalização da camisola, NPC com missão, baú escondido, perguntas com pista e XP/moedas.
+Controlos mobile inspirados em jogos de exploração:
+- Joystick virtual à esquerda: movimento em 360 graus.
+- Arrastar no lado direito: rodar a câmara.
+- Botão Saltar: salto manual.
+- Botão Correr: alternar corrida.
+- Botão da mão: interagir com NPCs e objetos.
+- Botão no topo: alternar primeira/terceira pessoa.
 
-## Controlos
-- Computador: WASD ou setas para mover; E para interagir.
-- Telemóvel: setas no ecrã para mover; botão Interagir.
-- Botão da câmara alterna entre terceira e primeira pessoa.
+Computador: WASD/setas, Espaço para saltar, E para interagir.
 
-## Nota técnica
-Usa Three.js através de CDN, pelo que necessita de ligação à Internet para carregar a biblioteca 3D. O progresso é demonstrativo e não sincroniza entre dispositivos. As perguntas são exemplos e devem ser substituídas por conteúdos alinhados com os manuais escolares. Os portais e a personalização avançada ainda são trabalho futuro.
+Protótipo em desenvolvimento; requer ligação à Internet para carregar Three.js por CDN.
