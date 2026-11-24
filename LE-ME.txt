@@ -1,0 +1,5 @@
+ACADEMIA GAMER — atualização Mundo Zero
+
+No GitHub, abre severetzi/academia-gamer > index.html > lápis. Substitui todo o conteúdo pelo ficheiro index.html deste ZIP e carrega em Commit changes.
+
+Inclui menu inicial/pausa, continuar, recomeçar com confirmação, gravação local de XP/moedas/estado das missões e botão de continuação após resposta correta. O progresso fica guardado apenas neste dispositivo/navegador.
