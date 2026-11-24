@@ -1,16 +1,11 @@
-# Academia Gamer — protótipo v1
+# Academia Gamer — Mundo Zero (protótipo 3D)
 
-Protótipo PWA em português (Portugal), pensado para Android. Inclui cinco mundos curriculares, missões demonstrativas interativas, XP, moedas, níveis, perfil e um painel familiar local.
+Primeira fatia jogável do conceito de aventura educativa: cenário 3D voxelizado, personagem controlável, câmara alternável, personalização da camisola, NPC com missão, baú escondido, perguntas com pista e XP/moedas.
 
-## Limitações desta versão
-- Os exercícios são exemplos demonstrativos, ainda não alinhados com os manuais escolares.
-- Os resultados ficam guardados apenas no navegador deste dispositivo.
-- Não existem contas, autenticação, sincronização ou relatórios privados.
-- A área da família é demonstrativa e não está protegida por palavra-passe.
-- Não introduzir dados pessoais de menores.
+## Controlos
+- Computador: WASD ou setas para mover; E para interagir.
+- Telemóvel: setas no ecrã para mover; botão Interagir.
+- Botão da câmara alterna entre terceira e primeira pessoa.
 
-## Próximas etapas
-1. Personalizar exercícios com fotografias dos manuais.
-2. Implementar autenticação e perfis familiares.
-3. Ligar uma base de dados com regras de acesso e sincronização.
-4. Expandir atividades interativas e mundos 2D/3D.
+## Nota técnica
+Usa Three.js através de CDN, pelo que necessita de ligação à Internet para carregar a biblioteca 3D. O progresso é demonstrativo e não sincroniza entre dispositivos. As perguntas são exemplos e devem ser substituídas por conteúdos alinhados com os manuais escolares. Os portais e a personalização avançada ainda são trabalho futuro.
